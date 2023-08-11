@@ -1,0 +1,217 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7308,        209]
+NotebookOptionsPosition[      5793,        181]
+NotebookOutlinePosition[      6205,        197]
+CellTagsIndexPosition[      6162,        194]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Worksheet Mathematica", "Title",
+ CellChangeTimes->{{3.868550255456531*^9, 
+  3.8685502595294514`*^9}},ExpressionUUID->"f4cd97e9-08c6-46f2-aae9-\
+9b5529c16c62"],
+
+Cell[TextData[{
+ "1. Define the following functions:\n      ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"f", "(", "x", ")"}], " ", "=", " ", 
+    RowBox[{
+     SuperscriptBox["x", "3"], "+", " ", 
+     RowBox[{"3", 
+      SuperscriptBox["x", "2"]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d198464d-ce62-43bc-ae61-411f9aad1f5d"],
+ "-2x + 3\n      ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"p", "(", "y", ")"}], " ", "=", " ", 
+    RowBox[{
+     SuperscriptBox["y", "2"], "-", 
+     RowBox[{"2", "y"}], " ", "-", " ", "2", " "}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b3aa9030-8afc-45b7-99a0-8927a2e65b2e"],
+ "\n      ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"k", "(", 
+     RowBox[{"x", ",", "y"}], ")"}], " ", "=", " ", 
+    RowBox[{
+     RowBox[{"f", "(", "x", ")"}], " ", "\[Times]", 
+     RowBox[{"p", "(", "y", ")"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "80615772-7356-4d24-ad13-7759cb10c571"]
+}], "Text",
+ CellChangeTimes->{{3.8685502650947304`*^9, 
+  3.868550512102292*^9}},ExpressionUUID->"114a8953-379f-47a0-8c6d-\
+145c6490495a"],
+
+Cell["\<\
+2. Plot function f(x) for the range -10 to 10 , label the plot with the title \
+of your choice, and color the plot line red. After plotting export the figure \
+to your working directory. \
+\>", "Text",
+ CellChangeTimes->{{3.8685505235738487`*^9, 3.868550593548582*^9}, {
+  3.868659010378948*^9, 
+  3.8686590128542857`*^9}},ExpressionUUID->"b798d665-effe-406b-a9e0-\
+76a9206974d3"],
+
+Cell["3. Solve the following equations:", "Text",
+ CellChangeTimes->{{3.8686590174510775`*^9, 
+  3.868659043006173*^9}},ExpressionUUID->"a69d7d97-9c62-4141-a750-\
+b1a70b033355"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["ax", "2"], " ", "+", " ", "bx", " ", "+", " ", "c"}], " ",
+    "=", " ", "0"}], TraditionalForm]],
+ FormatType->
+  TraditionalForm,ExpressionUUID->"d553e09c-6da3-4b72-aa4b-e2e8d684e721"]], \
+"Subitem",
+ CellChangeTimes->{{3.8686590936894236`*^9, 
+  3.8686591202106743`*^9}},ExpressionUUID->"e5130f2b-571d-4adc-a637-\
+a47a8c961c4e"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{"3", "x"}], " ", "-", " ", 
+     RowBox[{"4", "y"}]}], " ", "=", " ", "9"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7d54d14d-c682-4a8c-af3e-70332d376533"],
+ "  and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{"8", "x"}], " ", "-", " ", 
+     RowBox[{"2", "y"}]}], " ", "=", " ", "10"}], TraditionalForm]], "Item",
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f6beef07-9cd9-4bf5-b997-8e4c96d2254d"]
+}], "Subitem",
+ CellChangeTimes->{{3.86865916393915*^9, 
+  3.868659239829223*^9}},ExpressionUUID->"7efe8981-bda8-4110-a903-\
+64531b1065a8"],
+
+Cell["4. Take derivative of:", "Text",
+ CellChangeTimes->{{3.8685506464418316`*^9, 3.868550669931674*^9}, 
+   3.868550711399703*^9, {3.8686590479098773`*^9, 
+   3.868659049171509*^9}},ExpressionUUID->"610359c4-f3e9-4579-8950-\
+7db75968fe8f"],
+
+Cell["f(x) in regard to x", "Subitem",
+ CellChangeTimes->{{3.868550729396843*^9, 
+  3.868550737773744*^9}},ExpressionUUID->"48e4a370-5073-4c95-81b3-\
+3820f9649ed9"],
+
+Cell["p(y) in regard to y", "Subitem",
+ CellChangeTimes->{{3.868550729396843*^9, 
+  3.868550746098215*^9}},ExpressionUUID->"242cf4ea-7779-4c09-aa6e-\
+c39a1413b992"],
+
+Cell["\<\
+k(x,y) in regard to x and after that take the second derivative in regard to y\
+\>", "Subitem",
+ CellChangeTimes->{{3.868550729396843*^9, 
+  3.86855079093429*^9}},ExpressionUUID->"1db11ce7-5bb9-4779-8978-\
+e16cd32f89fc"],
+
+Cell["5. Integrate f(x) for the range 0 to 10 ", "Text",
+ CellChangeTimes->{{3.8685507956177273`*^9, 3.868550843658946*^9}, {
+  3.868659052230955*^9, 
+  3.868659052365647*^9}},ExpressionUUID->"2e9fc055-716e-4256-8d17-\
+5de915dec642"],
+
+Cell["6. Find minimum of p(y)", "Text",
+ CellChangeTimes->{{3.8685508486619616`*^9, 3.868550885146099*^9}, {
+  3.8685509308917093`*^9, 3.868550943670149*^9}, {3.868551173685299*^9, 
+  3.868551175556528*^9}, {3.8686590539212723`*^9, 
+  3.8686590550492153`*^9}},ExpressionUUID->"2848f916-9f9c-4902-bb2a-\
+bad3994435fb"],
+
+Cell[TextData[{
+ "7.  Run the following matrix calculation:\n\n    ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", GridBox[{
+      {"1", "2", "6"},
+      {"1", "4", 
+       RowBox[{"-", "1"}]},
+      {
+       RowBox[{"-", "8"}], "2", "0"}
+     }], ")"}], TraditionalForm]],ExpressionUUID->
+  "b60cbb55-b8d7-4b91-ab2f-a0216f94171c"],
+ " \[Times]",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", GridBox[{
+      {"0", "10", "4"},
+      {
+       RowBox[{"-", "4"}], "1", "9"},
+      {"1", "4", "0"}
+     }], ")"}], TraditionalForm]],ExpressionUUID->
+  "2d15b8c3-dca4-4eb1-86ea-6061a6de3260"]
+}], "Text",
+ CellChangeTimes->{{3.868551180213447*^9, 3.8685511804675193`*^9}, {
+  3.8685513242713923`*^9, 3.8685515856886663`*^9}, {3.868659056564207*^9, 
+  3.8686590567985544`*^9}},ExpressionUUID->"9031e1af-6f61-4475-a8ac-\
+090c58a06494"]
+}, Open  ]]
+},
+WindowSize->{718.5, 771.},
+WindowMargins->{{-725.25, Automatic}, {91.5, Automatic}},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"da13f10c-820f-4411-9d5d-2a3311931c20"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 166, 3, 97, "Title",ExpressionUUID->"f4cd97e9-08c6-46f2-aae9-9b5529c16c62"],
+Cell[749, 27, 1172, 36, 100, "Text",ExpressionUUID->"114a8953-379f-47a0-8c6d-145c6490495a"],
+Cell[1924, 65, 390, 8, 56, "Text",ExpressionUUID->"b798d665-effe-406b-a9e0-76a9206974d3"],
+Cell[2317, 75, 177, 3, 34, "Text",ExpressionUUID->"a69d7d97-9c62-4141-a750-b1a70b033355"],
+Cell[2497, 80, 412, 11, 26, "Subitem",ExpressionUUID->"e5130f2b-571d-4adc-a637-a47a8c961c4e"],
+Cell[2912, 93, 674, 21, 27, "Subitem",ExpressionUUID->"7efe8981-bda8-4110-a903-64531b1065a8"],
+Cell[3589, 116, 241, 4, 34, "Text",ExpressionUUID->"610359c4-f3e9-4579-8950-7db75968fe8f"],
+Cell[3833, 122, 164, 3, 27, "Subitem",ExpressionUUID->"48e4a370-5073-4c95-81b3-3820f9649ed9"],
+Cell[4000, 127, 164, 3, 27, "Subitem",ExpressionUUID->"242cf4ea-7779-4c09-aa6e-c39a1413b992"],
+Cell[4167, 132, 230, 5, 27, "Subitem",ExpressionUUID->"1db11ce7-5bb9-4779-8978-e16cd32f89fc"],
+Cell[4400, 139, 233, 4, 34, "Text",ExpressionUUID->"2e9fc055-716e-4256-8d17-5de915dec642"],
+Cell[4636, 145, 317, 5, 34, "Text",ExpressionUUID->"2848f916-9f9c-4902-bb2a-bad3994435fb"],
+Cell[4956, 152, 821, 26, 115, "Text",ExpressionUUID->"9031e1af-6f61-4475-a8ac-090c58a06494"]
+}, Open  ]]
+}
+]
+*)
+
