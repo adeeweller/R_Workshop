@@ -10,4 +10,4 @@ There are four main folders:
 
 Each folder contains the slides for each of our sessions, any datasets that are required, R code, exercises, and problem sets, as well as solutions. The Spring sessions are designed to coordinate with POLS 509 (Linear Models) at Emory University. 
 
-If there are any questions, please contact me at: adee.weller@emory.edu
+If there are any questions, please contact me and Eddy at: adee.weller@emory.edu and shing.fung.yeung@emory.edu
